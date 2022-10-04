@@ -1,0 +1,40 @@
+h1,
+h6 {
+  font-weight: 90;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+p {
+  color: #bf1650;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
+body {
+  background: #0e101c;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  pedding: 20px;
+}
+button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+input:disabled {
+  opacity: 0.4;
+}

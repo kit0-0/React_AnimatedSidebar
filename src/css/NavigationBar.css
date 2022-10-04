@@ -1,0 +1,8 @@
+.nav-container {
+  background: rgb(0, 7, 61);
+  color: rgb(255, 255, 255);
+  height: 8vh;
+  padding: 15px 10px;
+  text-align: center;
+  flex-direction: column;
+}

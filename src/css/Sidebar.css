@@ -1,0 +1,61 @@
+.main-container {
+  display: flex;
+}
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background: rgb(0, 7, 61);
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.logo {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.bars {
+  width: 30px;
+}
+.hide {
+  display: none;
+}
+.routes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link {
+  display: flex;
+  color: rgb(255, 255, 255);
+  gap: 10px;
+  padding: 5px 10px;
+}
+.link:hover {
+  border-right: 4px solid white;
+  background: rgb(45, 51, 89);
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+a {
+  text-decoration: none;
+}
+.active {
+  border-right: 4px solid white;
+  background: rgb(45, 51, 89);
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 15px;
+}
